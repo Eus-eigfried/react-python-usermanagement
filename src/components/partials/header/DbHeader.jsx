@@ -1,7 +1,7 @@
 import React from "react";
 
 const DbHeader = ({
-	adminTitle = "Alcantara, Suministrado, Ticson Simple CRUD using React and Flask",
+	adminTitle = "Alcantara, Suministrado, Ticzon Simple CRUD using React and Flask",
 }) => {
 	const [showInfo, setShowInfo] = React.useState(false);
 	const handleShowInfo = () => {
