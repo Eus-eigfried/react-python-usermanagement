@@ -34,22 +34,6 @@ CREATE TABLE IF NOT EXISTS users (
 """
 cursor.execute(createTable)
 
-# create-all
-# @app.route('/createall', methods=['POST'])
-# def run_Time():
-#         cursor = db.cursor()
-#         createTable = """
-#         CREATE TABLE IF NOT EXISTS users (
-#             id INT AUTO_INCREMENT PRIMARY KEY,
-#             name VARCHAR(100),
-#             email VARCHAR(100)
-#         );
-#         """
-#         createEntries = """INSERT INTO users (name, email) VALUES ('fullstack', 'fullstack@gmail.com'), ('frontend', 'frontend@gmail.com'), ('backend', 'backend@gmail.com');"""
-#         cursor.execute(createTable)
-#         cursor.execute(createEntries)
-
-
 mysql = MySQL(app)
 # create
 @app.route('/users', methods=['POST'])
