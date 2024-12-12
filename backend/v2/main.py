@@ -10,14 +10,14 @@ CORS(app)
 
 # MySQL configuration
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'  # your MySQL username
+app.config['MYSQL_USER'] = 'Eus'  # your MySQL username
 app.config['MYSQL_PASSWORD'] = ''  # your MySQL password
 app.config['MYSQL_DB'] = 'crud_db'
 app.config['MYSQL_TABLE'] = 'users'
 
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
+    user="Eus",
     password="",  # replace with your MySQL password
     database="crud_db"
 )
